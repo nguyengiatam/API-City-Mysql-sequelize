@@ -16,3 +16,5 @@ app.use('/cityRedis', cityRouterRedis);
 app.listen(PORT, () => {
     console.log('Sever ready');
 })
+
+module.exports = app;
